@@ -3,8 +3,12 @@ body {
     
 }
 
-.topsite {
-
-    background-color
-
-}
+.topline {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px:auto
+    background-color: #ffffff;
+    
+  }
+  
