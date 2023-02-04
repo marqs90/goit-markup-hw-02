@@ -1,14 +1,12 @@
-body {
-    font-family: "roboto", sans-serif;
-    
+
+/*brand color*/
+
+:root {
+    --brand-color-background: #2F303A;
+    --brand-color-black: #212121;
+    --brand-color-grey: #757575;
+    --brand-color-blue: #2196F3;
+    --brand-color-white: #FFFFFF;
+
 }
 
-.topline {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px:auto
-    background-color: #ffffff;
-    
-  }
-  
