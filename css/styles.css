@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e5e5e5;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.hero {
+    width: 1600px;
+    height: 600px;
+    left: 0;
+    top: 80px;
+    background-color: #2f303a;
+}
+
+ h1 {
+    color: #FFFFFF;
+    font-size: 44;
+    line-height: 60px;
+    letter-spacing: 6%;
+
+}
+
+h1:hover {
+
+}
+
+footer {
+    background-color: #2F303A;
+    text-decoration: none;
+    
+}
