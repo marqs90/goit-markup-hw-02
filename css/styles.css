@@ -1,42 +1,131 @@
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #e5e5e5;
+/* Zmienne */
+
+    :root {
+        --brand-color-black: #212121;
+        --brand-color-grey: #757575;
+        --brand-color-white: #fff;
+        --brand-color-blue: #2196f3;
+        --brand-background-dark: #2f303a;
+
+
 }
+body {
+    background-color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header, nav */
+
 
 header {
-    background-color: #FFFFFF;
+    background-color: var(--brand-color-white);
+    
 }
-
-header a {
-    text-decoration: none;
+.menu-link {
+    
+    color: var(--brand-color-black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 2%;
 }
 
 .nav-list {
-    list-style-type: none;
+    color: var(--brand-color-black);
+    list-style: none;
 }
 
+.menu-link, .contact-link {
+    text-decoration: none;
+
+}
+
+.contact-link {
+    color: var(--brand-color-grey);
+}
+
+.menu-link:hover, .contact-link:hover {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+/* Hero */
 .hero {
+    position: relative;
     width: 1600px;
     height: 600px;
-    left: 0;
-    top: 80px;
     background-color: #2f303a;
 }
 
  h1 {
-    color: #FFFFFF;
-    font-size: 44;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
     line-height: 60px;
-    letter-spacing: 6%;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
 }
 
 h1:hover {
+    text-decoration: underline;
 
 }
 
-footer {
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color:#FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+/* Section Lorem4*/
+
+
+.lorem4 {
+    background-color: var(--brand-color-white);
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.lorem4 h3 {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 3%;
+
+}
+
+/* ourJob */
+.our-job {
+    background-color: var(--brand-color-white);
+   
+}
+/* ourTeam */
+
+.our-team {
+    background-color:#F5F4FA ;
+}
+
+
+/* Footer */
+ footer {
     background-color: #2F303A;
     text-decoration: none;
     
-}
+} 
