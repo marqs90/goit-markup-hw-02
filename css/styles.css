@@ -14,8 +14,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* Header, nav */
+/* Header, nav, logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: #000;
+    text-decoration: none;
 
+  }
+  
+  .blue-logo {
+    color: var(--brand-color-blue);
+  }
 
 header {
     background-color: var(--brand-color-white);
@@ -26,13 +36,12 @@ header {
     color: var(--brand-color-black);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 2%;
+   
 }
 
 .nav-list {
     color: var(--brand-color-black);
-    list-style: none;
+    list-style:none;
 }
 
 .menu-link, .contact-link {
@@ -40,7 +49,8 @@ header {
 
 }
 
-.contact-link {
+.contact-list, .contact-link {
+    list-style: none;
     color: var(--brand-color-grey);
 }
 
@@ -51,9 +61,7 @@ header {
 
 /* Hero */
 .hero {
-    position: relative;
-    width: 1600px;
-    height: 600px;
+
     background-color: #2f303a;
 }
 
@@ -100,6 +108,7 @@ button {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 3%;
+    
 }
 
 .lorem4 h3 {
@@ -108,13 +117,25 @@ button {
     font-size: 14px;
     line-height: 16.41px;
     letter-spacing: 3%;
+}
 
+.lorem4 ul {
+    list-style: none;
 }
 
 /* ourJob */
 .our-job {
     background-color: var(--brand-color-white);
-   
+    
+}
+
+.our-job h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.our-job ul {
+    list-style: none; 
 }
 /* ourTeam */
 
@@ -122,6 +143,28 @@ button {
     background-color:#F5F4FA ;
 }
 
+.our-team h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.our-team ul {
+    list-style: none;
+}
+
+.our-team h3 {
+    color: var(--brand-color-black);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3%;   
+}
+
+.our-team p {
+    color:var(--brand-color-grey);
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /* Footer */
  footer {
