@@ -15,148 +15,162 @@
 	<body>
 		<!-- Nagłowek, nav, logo -->
 		<header>
-			<a href="index.html" title="Strona główna">WebStudio</a>
+			<a class="logo" href="index.html" title="Strona główna"
+				><span class="blue-logo">Web</span>Studio</a
+			>
 			<nav>
-				<ul>
-					<li><a href="#">Agencja</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="#">Kontakt</a></li>
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Agencja</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Kontakt</a>
+					</li>
+				</ul>
+				<ul class="contact-list">
+					<li class="contact-item">
+						<a class="contact-link" href="mailto:info@devstudio.com"
+							>info@devstudio.com></a
+						>
+					</li>
+					<li class="contact-item">
+						<a class="contact-link" href="tel:+48111111111">+48 111 111 111</a>
+					</li>
 				</ul>
 			</nav>
-			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com></a></li>
-				<li><a href="tel:+48111111111">+48 111 111 111></a></li>
-			</ul>
 		</header>
 		<!-- Main -->
 		<main>
-			<!-- Portfolio list -->
-			<section>
-				<ul>
-					<li class="menu-item">Wszystkie</li>
-					<li class="menu-item">Strony</li>
-					<li class="menu-item">Aplikacje</li>
-					<li class="menu-item">Dizajn</li>
-					<li class="menu-item">Marketing</li>
-				</ul>
+			<!-- Portfolio menu -->
+			<section class="submenu-list">
+			<ul>
+				<li class="submenu-item"><button type="button" class="btn-submenu">Wszystkie</button></li>
+				<li class="submenu-item"><button type="button" class="btn-submenu">Strony</button></li>
+				<li class="submenu-item"><button type="button" class="btn-submenu">Aplikacje</button></li>
+				<li class="submenu-item"><button type="button" class="btn-submenu">Dizajn</button></li>
+				<li class="submenu-item"><button type="button" class="btn-submenu">Marketing</button></li>
+			</ul>
 			</section>
 			<!-- Our SKills  -->
-			<section>
-				<ul>
-					<li>
-						<figure>
+			<section class="skills">
+				<ul class="skills-list">
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill1.jpg"
 								alt="technocrack"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Technocrack</h3>
-								<p>Strona internetowa</p>
+								<p class="skills-description-text">Strona internetowa</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill2.jpg"
-								alt="grafikaneworlean"
+								alt="grafikaNewOrlean"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Grafika New Orlean vs Golden Star</h3>
-								<p>Dizajn</p>
+								<p class="skills-description-text">Dizajn</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill3.jpg"
 								alt="restauracja"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Restauracja Seafood</h3>
-								<p>Aplikacja</p>
+								<p class="skills-description-text">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>
 					<li>
-						<figure>
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill4.jpg"
 								alt="sluchawki"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Projekt Prime</h3>
-								<p>Marketing</p>
+								<p class="skills-description-text">Marketing</p>
 							</figcaption>
 						</figure>
 					</li>
 					<li>
-						<figure>
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill5.jpg"
 								alt="boxes"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Projekt Boxes</h3>
-								<p>Aplikacja</p>
+								<p class="skills-description-text">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill6.jpg"
 								alt="monitor"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Inspiration has no Border</h3>
-								<p>Strona inernetowa</p>
+								<p class="skills-description-text">Strona inernetowa</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill7.jpg"
 								alt="book"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Magazyn Limited Edition</h3>
-								<p>Dizajn</p>
+								<p class="skills-description-text">Dizajn</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill8.jpg"
 								alt="projektlab"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Projekt LAB</h3>
-								<p>Marketing</p>
+								<p class="skills-description-text">Marketing</p>
 							</figcaption>
 						</figure>
 					</li>
-					<li>
-						<figure>
+					<li class="skills-item">
+						<figure class="skills-photo">
 							<img
 								src="./images/ourSkills/skill9.jpg"
 								alt="mac"
 								width="370"
 								height="294" />
-							<figcaption>
+							<figcaption class="skills-description">
 								<h3>Growing Business</h3>
-								<p>Aplikacja</p>
+								<p class="skills-description-text">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>

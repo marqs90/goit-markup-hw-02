@@ -1,4 +1,4 @@
-/* Zmienne */
+Zmienne
 
     :root {
         --brand-color-black: #212121;
@@ -27,11 +27,11 @@ body {
     color: var(--brand-color-blue);
   }
 
-header {
+.header {
     background-color: var(--brand-color-white);
     
 }
-.menu-link {
+.nav-link {
     
     color: var(--brand-color-black);
     font-weight: 500;
@@ -44,7 +44,7 @@ header {
     list-style:none;
 }
 
-.menu-link, .contact-link {
+.nav-link, .contact-link {
     text-decoration: none;
 
 }
@@ -65,7 +65,7 @@ header {
     background-color: #2f303a;
 }
 
- h1 {
+ .hero-title {
   
     font-family: 'Roboto';
     font-style: normal;
@@ -79,12 +79,12 @@ header {
 
 }
 
-h1:hover {
+.hero-title:hover {
     text-decoration: underline;
 
 }
 
-button {
+.btn-hero {
     width: 200px;
     height: 50px;
     background-color: #2196f3;
@@ -123,27 +123,27 @@ button {
     list-style: none;
 }
 
-/* ourJob */
-.our-job {
+/* ourJob offer */
+.offer {
     background-color: var(--brand-color-white);
     
 }
 
-.our-job h2 {
+.offer-title {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
 }
-.our-job ul {
+.offer-list {
     list-style: none; 
 }
 /* ourTeam */
 
-.our-team {
-    background-color:#F5F4FA ;
+.team {
+    background-color:black;
 }
 
-.our-team h2 {
+.team-title {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -168,7 +168,18 @@ button {
 
 /* Footer */
  footer {
-    background-color: #2F303A;
-    text-decoration: none;
-    
+    background-color: #2F303A; 
 } 
+
+.footer-list {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-size: 14;
+    font-weight: 400;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
