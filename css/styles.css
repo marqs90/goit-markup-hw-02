@@ -1,194 +1,212 @@
 /* zmienne */
 
-    :root {
-        --brand-color-black: #212121;
-        --brand-color-grey: #757575;
-        --brand-color-white: #fff;
-        --brand-color-blue: #2196f3;
-        --brand-background-dark: #2f303a;
-
-
+:root {
+	--brand-color-black: #212121;
+	--brand-color-grey: #757575;
+	--brand-color-white: #fff;
+	--brand-color-blue: #2196f3;
+	--brand-background-dark: #2f303a;
 }
 body {
-    background-color: #e5e5e5;
-    font-family: "Roboto", sans-serif;
-    color: var(--brand-color-black);
+	background-color: #e5e5e5;
+	font-family: "Roboto", sans-serif;
+	color: var(--brand-color-black);
 }
 
 /* Header, nav, logo */
 
 .header {
-    width: 1600px;
-    margin: auto;
-    background-color: var(--brand-color-white);
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
+	background-color: var(--brand-color-white);
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    color: #000;
-    text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	color: #000;
+	text-decoration: none;
+}
 
-  }
-  
-  .blue-logo {
-    color: var(--brand-color-blue);
-  }
+.blue-logo {
+	color: var(--brand-color-blue);
+}
 .nav-list {
-    list-style: none;
+	list-style: none;
 }
 .nav-link {
-    
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--brand-color-black);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--brand-color-black);
 }
 
-.nav-link:hover, .nav-link:focus, .nav-link:active {
-    color: var(--brand-color-blue);
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+	color: var(--brand-color-blue);
 }
 
 .contact-list {
-    list-style: none;
+	list-style: none;
 }
 .contact-link {
-    color: var(--brand-color-grey);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  .contact-link:hover, .contact-link:focus, .contact-link:active {
-    color: var(--brand-color-blue);
+	color: var(--brand-color-grey);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
 }
 
-/* Hero, btn-hero */
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active {
+	color: var(--brand-color-blue);
+}
+
+/* Hero */
 .hero {
-    height: 600px;
-    background-color: var(--brand-background-dark);
-    text-align: center;
+	height: 600px;
+	background-color: var(--brand-background-dark);
+	text-align: center;
 }
 
- .hero-title {
-  
-    color: var(--brand-color-white);
-    text-transform: uppercase;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-
+.hero-title {
+	color: var(--brand-color-white);
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 0.06em;
 }
 
 .hero-title:hover {
-    text-decoration: underline;
-
+	text-decoration: underline;
 }
 
 .btn-hero {
-    color: var(--brand-color-white);
-    background-color: var(--brand-color-blue);
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
+	color: var(--brand-color-white);
+	background-color: var(--brand-color-blue);
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
 }
 
 .btn-hero:hover,
 .btn-hero:focus,
 .btn-hero:active {
-  background-color: var(--brand-color-white);
-  color: var(--brand-color-blue);
+	background-color: var(--brand-color-white);
+	color: var(--brand-color-blue);
 }
 
-/* Section Lorem4*/
+/* Section Lorem*/
 
-
-.lorem4 {
+.lorem{
     background-color: var(--brand-color-white);
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    
 }
 
-.lorem4 h3 {
-    color: #212121;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 3%;
-}
-
-.lorem4 ul {
+.lorem-list {
     list-style: none;
 }
 
-/* ourJob offer */
-.offer {
-    background-color: var(--brand-color-white);
+.lorem-title {
     
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	
+}
+
+.lorem-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--brand-color-grey);
+}
+
+/* ourJob offer */
+
+.offer {
+    background-color:var(--brand-color-white);
 }
 
 .offer-title {
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
 }
+
 .offer-list {
-    list-style: none; 
+    text-align: center;
+    list-style: none;
 }
+
 /* ourTeam */
 
+.team-list {
+    list-style: none;
+}
+
 .team {
-    background-color:black;
+  text-align: center;
+  background-color: #f5f4fa;
 }
 
 .team-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
+	font-size: 36px;
+	font-weight: 700;
 }
 
-.our-team ul {
-    list-style: none;
+.team-item {
+    background-color: var(--brand-color-white);
 }
 
-.our-team h3 {
-    color: var(--brand-color-black);
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 3%;   
+.team-person {
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+
 }
 
-.our-team p {
-    color:var(--brand-color-grey);
-    font-size: 16px;
-    font-weight: 500;
-}
+.team-person-work{
+    color: var(--brand-color-grey);
+  }
 
 /* Footer */
- footer {
-    background-color: #2F303A; 
-} 
-
-.footer-list {
-    list-style: none;
-    color: #FFFFFF;
+.footer {
+	background-color: #2f303a;
 }
 
-.footer-link {
-    font-size: 14;
-    font-weight: 400;
-    letter-spacing: 3%;
-    text-decoration: none;
+.footer .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--brand-color-white);
+}
+
+.address-list {
+    list-style: none;
+}
+
+.address-item {
+    color: var(--brand-color-white);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  
+}
+
+.address-link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
+  color: var(--brand-color-white);
 }
