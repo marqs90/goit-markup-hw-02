@@ -8,18 +8,13 @@
 	--brand-background-dark: #2f303a;
 }
 body {
-	background-color: #e5e5e5;
+	background-color: var(--brand-color-white);
 	font-family: "Roboto", sans-serif;
 	color: var(--brand-color-black);
 }
 
 /* Header, nav, logo */
 
-.header {
-
-	background-color: var(--brand-color-white);
-	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
@@ -78,11 +73,8 @@ body {
 	letter-spacing: 0.06em;
 }
 
-.hero-title:hover {
-	text-decoration: underline;
-}
-
 .btn-hero {
+	font-family: "Roboto" sans-serif;
 	color: var(--brand-color-white);
 	background-color: var(--brand-color-blue);
 	border: none;
@@ -102,56 +94,98 @@ body {
 	color: var(--brand-color-blue);
 }
 
+/* Porfolio menu */
+
+.portfolio-menu-list {
+	
+	list-style: none;
+}
+.portfolio-menu-item {
+	display: inline;
+}
+
+.btn-submenu {
+	
+	text-align: center;
+	background-color: #f5f4fa;
+	height: 38px;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn-submenu:hover,
+.btn-submenu:focus,
+.btn-submenu:active {
+	background-color: var(--brand-color-blue);
+	color: var(--brand-color-white);
+}
+
+/* Our Skills */
+
+.skills-list {
+	list-style: none;
+}
+.skills-description-text {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	text-align: left;
+
+	color: var(--brand-color-grey);
+}
 /* Section Lorem*/
 
-.lorem{
-    background-color: var(--brand-color-white);
+.lorem {
+	background-color: var(--brand-color-white);
 }
 
 .lorem-list {
-    list-style: none;
+	list-style: none;
 }
 
 .lorem-title {
-    
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 16px;
 	letter-spacing: 0.03em;
-	
 }
 
 .lorem-text {
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--brand-color-grey);
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--brand-color-grey);
 }
 
 /* ourJob offer */
 
 .offer {
-    background-color:var(--brand-color-white);
+	background-color: var(--brand-color-white);
 }
 
 .offer-title {
-    text-align: center;
-    font-size: 36px;
+	text-align: center;
+	font-size: 36px;
 }
 
 .offer-list {
-    text-align: center;
-    list-style: none;
+	text-align: center;
+	list-style: none;
 }
 
 /* ourTeam */
 
 .team-list {
-    list-style: none;
+	list-style: none;
 }
 
 .team {
-  text-align: center;
-  background-color: #f5f4fa;
+	text-align: center;
+	background-color: #f5f4fa;
 }
 
 .team-title {
@@ -160,21 +194,20 @@ body {
 }
 
 .team-item {
-    background-color: var(--brand-color-white);
+	background-color: var(--brand-color-white);
 }
 
 .team-person {
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-letter-spacing: 0.03em;
-text-align: center;
-
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	text-align: center;
 }
 
-.team-person-work{
-    color: var(--brand-color-grey);
-  }
+.team-person-work {
+	color: var(--brand-color-grey);
+}
 
 /* Footer */
 .footer {
@@ -182,31 +215,30 @@ text-align: center;
 }
 
 .footer .logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    color: var(--brand-color-white);
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	color: var(--brand-color-white);
 }
 
 .address-list {
-    list-style: none;
+	list-style: none;
 }
 
 .address-item {
-    color: var(--brand-color-white);
-    font-size: 14px;
-    font-style: normal;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-  
+	color: var(--brand-color-white);
+	font-size: 14px;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.03em;
 }
 
 .address-link {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-  }
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+}
 
 .address-link:hover,
 .address-link:focus,
 .address-link:active {
-  color: var(--brand-color-white);
+	color: var(--brand-color-white);
 }
