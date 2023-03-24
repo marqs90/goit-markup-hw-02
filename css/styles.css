@@ -1,16 +1,17 @@
 /* zmienne */
 
 :root {
-	--brand-color-black: #212121;
-	--brand-color-grey: #757575;
-	--brand-color-white: #fff;
-	--brand-color-blue: #2196f3;
-	--brand-background-dark: #2f303a;
+	--color-font-first: #212121;
+	--color-font-second: #757575;
+	--color-font-third: #2196f3;
+	--color-bcg-first: #fff;
+	--color-bcg-second: #2f303a;
 }
+
 body {
-	background-color: var(--brand-color-white);
+	background-color: var(--color-bcg-first);
 	font-family: "Roboto", sans-serif;
-	color: var(--brand-color-black);
+	color: var(--color-font-first);
 }
 
 /* Header, nav, logo */
@@ -23,29 +24,32 @@ body {
 }
 
 .blue-logo {
-	color: var(--brand-color-blue);
+	color: var(--color-font-third);
 }
+
 .nav-list {
 	list-style: none;
 }
+
 .nav-link {
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 500;
-	color: var(--brand-color-black);
+	color: var(--color-font-first);
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-	color: var(--brand-color-blue);
+	color: var(--color-font-third);
 }
 
 .contact-list {
 	list-style: none;
 }
+
 .contact-link {
-	color: var(--brand-color-grey);
+	color: var(--color-font-second);
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 500;
@@ -54,18 +58,19 @@ body {
 .contact-link:hover,
 .contact-link:focus,
 .contact-link:active {
-	color: var(--brand-color-blue);
+	color: var(--color-font-third);
 }
 
 /* Hero */
+
 .hero {
 	height: 600px;
-	background-color: var(--brand-background-dark);
+	background-color: var(--color-bcg-second);
 	text-align: center;
 }
 
 .hero-title {
-	color: var(--brand-color-white);
+	color: var(--color-bcg-first);
 	text-transform: uppercase;
 	font-size: 44px;
 	font-weight: 900;
@@ -75,8 +80,8 @@ body {
 
 .btn-hero {
 	font-family: "Roboto" sans-serif;
-	color: var(--brand-color-white);
-	background-color: var(--brand-color-blue);
+	color: var(--color-bcg-first);
+	background-color: var(--color-font-third);
 	border: none;
 	border-radius: 4px;
 	font-size: 16px;
@@ -90,22 +95,22 @@ body {
 .btn-hero:hover,
 .btn-hero:focus,
 .btn-hero:active {
-	background-color: var(--brand-color-white);
-	color: var(--brand-color-blue);
+	background-color: var(--color-bcg-first);
+	color: var(--color-font-third);
 }
 
 /* Porfolio menu */
 
 .portfolio-menu-list {
-	
 	list-style: none;
 }
+
 .portfolio-menu-item {
 	display: inline;
 }
 
 .btn-submenu {
-	
+	font-family: "Roboto" sans-serif;
 	text-align: center;
 	background-color: #f5f4fa;
 	height: 38px;
@@ -119,29 +124,35 @@ body {
 .btn-submenu:hover,
 .btn-submenu:focus,
 .btn-submenu:active {
-	background-color: var(--brand-color-blue);
-	color: var(--brand-color-white);
+	background-color: var(--color-font-third);
+	color: var(--color-bcg-first);
 }
 
 /* Our Skills */
 
+.skills-name {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+}
+
 .skills-list {
 	list-style: none;
 }
+
 .skills-description-text {
-	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.03em;
-	text-align: left;
-
-	color: var(--brand-color-grey);
+	color: var(--color-font-second);
 }
+
 /* Section Lorem*/
 
 .lorem {
-	background-color: var(--brand-color-white);
+	background-color: var(--color-bcg-first);
 }
 
 .lorem-list {
@@ -158,13 +169,13 @@ body {
 .lorem-text {
 	font-size: 14px;
 	line-height: 24px;
-	color: var(--brand-color-grey);
+	color: var(--color-font-second);
 }
 
 /* ourJob offer */
 
 .offer {
-	background-color: var(--brand-color-white);
+	background-color: var(--color-bcg-first);
 }
 
 .offer-title {
@@ -193,23 +204,19 @@ body {
 	font-weight: 700;
 }
 
-.team-item {
-	background-color: var(--brand-color-white);
-}
-
 .team-person {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19px;
 	letter-spacing: 0.03em;
-	text-align: center;
 }
 
 .team-person-work {
-	color: var(--brand-color-grey);
+	color: var(--color-font-second);
 }
 
 /* Footer */
+
 .footer {
 	background-color: #2f303a;
 }
@@ -217,7 +224,7 @@ body {
 .footer .logo {
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
-	color: var(--brand-color-white);
+	color: var(--color-bcg-first);
 }
 
 .address-list {
@@ -225,7 +232,7 @@ body {
 }
 
 .address-item {
-	color: var(--brand-color-white);
+	color: var(--color-bcg-first);
 	font-size: 14px;
 	font-style: normal;
 	line-height: 24px;
@@ -240,5 +247,5 @@ body {
 .address-link:hover,
 .address-link:focus,
 .address-link:active {
-	color: var(--brand-color-white);
+	color: var(--color-bcg-first);
 }
